@@ -14,7 +14,6 @@ resource stg 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   kind: 'StorageV2'
   sku: {
     name: 'Premium_LRS'
-    tier: 'Premium'
   }
 }
 
